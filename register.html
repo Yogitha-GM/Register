@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./registration.css">
+    <link rel = "shortcut icon" href="../images/yoga.jpg"/>
+</head>
+<body>
+    <h1 class="registration"><i><u>Registration Form</u></i></h1>
+    <form action="https://www.google.com" method="GET">
+    
+            
+   <table>
+       <tr>
+   <td><label for="First Name"><strong>FIRST NAME:</strong>  </label></td>
+   <td><input id="First Name" required placeholder="enter your first name" pattern="[A-Z]{1}[a-z]{2-8}"><br/><br/></td>
+</tr>
+
+   <tr>
+   <td><label for="Middle Name"><strong>FULL NAME:</strong> </label></td>
+   <td><input id="Middle Name" required placeholder="enter your middle name" pattern="[A-Z]{1}[a-z]{2-14}"><br/><br/></td>
+</tr>
+<tr>
+   <td><label for="Last Name"><strong>LAST NAME:</strong> </label></td>
+   <td><input id="Last Name" required placeholder="enter your last Name" pattern="[A-Z]{1}[a-z]{2-9}"><br/><br/></td>
+</tr>
+    <tr>
+    <td><label for="Phone no"><strong>PHONE NO:</strong>  </label></td>
+<td><input id="Phone no" required placeholder="enter your 10 digit number" pattern="[0-9]{10}"><br/><br/></td>
+</tr>
+   <tr>
+<td> <label for="Email-id"><strong>EMAIL-ID:</strong> </label></td>
+<td><input id="Email-id" required placeholder="enter your email-id" type="email" value="@gmail.com"><br/><br/></td>
+</tr>
+   <tr>
+<td><label for="DOB"><strong>DOB:</strong>  </label></td>
+<td><input id="DOB" required placeholder="enter your date of birth" type="date"><br/><br/></td>
+</tr>
+<tr>
+
+  <td> <label for="Gender"><strong>GENDER:</strong> </label></td>
+<td><input type="radio" name="Female" value="Male"/>Male</td>
+<td> <input type="radio" name="Female" value="Female"/>Female<br/><br/></td>
+</tr>
+</table>
+
+    <button>Register</button>
+    <a href="./login.html">already an user?</a>
+    </form>
